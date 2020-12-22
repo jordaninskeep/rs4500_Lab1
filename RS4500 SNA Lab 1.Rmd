@@ -11,19 +11,36 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## 1. Install R and RStudio
 
-* Click the link and follow the instructions to install R and RStudio.
+* **Click the link and follow the instructions to install R and RStudio.**
   + [rstudio-education.github.io/hopr/starting.html](https://rstudio-education.github.io/hopr/starting.html)
   + Open a new session and get familiar with interface.
   
 ## 2. Download and Open App for Lab 1
-* Download a .zip archive file for the Lab 1 files from my Github
+* **Download a .zip archive file for the Lab 1 files from my Github.**
   + Go to the link at [github.com/jordaninskeep/rs4500_Lab1](https://github.com/jordaninskeep/rs4500_Lab1)
-  + Click the "Code" dropdown then select "Download Zip." 
-      
-![](data/downloadZip.png)
+  + Click the "Code" dropdown then select "Download Zip."  
+![](data/downloadZip.png)  
   
-  + Save this in a folder for your RS4500 Labs.
-  + Unzip this archive and open "rs4500_Lab1.Rproj"
+*Github is a "version control" program that is used to track changes to and distribute code. Here you can find tons of packages and programs that other people have developed. We will us this to distribute code for your labs.*  
+
+  + Save this in a folder on your computer where you want to save your RS4500 Labs.  
+  + Navigate to this folder and unzip this archive and open "rs4500_Lab1.Rproj"  
+  + In the bottom right "Files" panel in RStudio open app.R, app.R should open in the top left panel of Rstudio.  
+    
+  ![](data/openApp.png)
+    
+*This shows your working directory, it shows all of the files in the folder related to the project. It is just like a file browser for your computer, with come extra R related options.*  
+
+  + Run the App by clicking "Run App" in the top right of the "app.R" window.
+    
+  ![](data/runApp.png)
+    
+  *This is a script, it hold the code which makes up the program named "app.R" You can right code in this window, save it and run it. Don't worry to much about the code for now. And it isn't as complicated as it looks.*  
+  
+  
+
+
+  
   
 
   
