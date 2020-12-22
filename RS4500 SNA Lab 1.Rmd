@@ -26,20 +26,41 @@ knitr::opts_chunk$set(echo = TRUE)
   + Save this in a folder on your computer where you want to save your RS4500 Labs.  
   + Navigate to this folder and unzip this archive and open "rs4500_Lab1.Rproj"  
   + In the bottom right "Files" panel in RStudio open app.R, app.R should open in the top left panel of Rstudio.  
-    
   ![](data/openApp.png)
     
 *This shows your working directory, it shows all of the files in the folder related to the project. It is just like a file browser for your computer, with come extra R related options.*  
+  
+  + Look through the code in the "app.R" window.  
+  
+  *This is a script, it holds the code which makes up the program named "app.R". You can right code in this window, save it and run it. Don't worry to much about the code for now. And it isn't as complicated as it looks, by the end of the semester you most of it will make sense.*  
 
-  + Run the App by clicking "Run App" in the top right of the "app.R" window.
-    
+  + Run the App by clicking "Run App" in the top right of the "app.R" window.  
   ![](data/runApp.png)
-    
-  *This is a script, it hold the code which makes up the program named "app.R" You can right code in this window, save it and run it. Don't worry to much about the code for now. And it isn't as complicated as it looks.*  
+  
+*The program with install and load all of the packages needed to run the app. You will see this happen in red font in the console.*  
+
+## 3. Get Familiar and Add a Node and Edge to the Example Network.
+
+* **Get familiar with App**  
+
+  + Adjust the Layout, Node Size and Grouping and Rearrange the Network by dragging the nodes. You can also play around with turning on/off the physics engine.  
+  
+  + Go to the Tables Tab by clicking the button on the left. Look through the tables and familiarize yourself with the tables.  Go back to the Network Tab. 
   
   
+* **Add a node and an edge to the excel file.**  
+ 
+  + Either from the Files Panel or in your local file browser, open data.xlsx  
+  ![](data/data.png)
+*This is the same data that you saw in the table tab in the App. This App is actually reactive, meaning it is constantly looking for updates in the excel file and then updating the app.*   
 
-
+  + In the "Edges" worksheet in the "from" column add Example 8 and in the "to" column connect it to Example 1. Add what Type you want it to be, and arrows on both ends of the edge by adding to, from in the arrows column.  
+  
+  + Go the "Nodes" worksheet, Add Example 8 to the "name" column, Add a Type and a Label.  
+  
+  + Save the changes to the Excel file. Return and make sure this automatically updated the app. 
+  
+![](data/example8.png)
   
   
 
