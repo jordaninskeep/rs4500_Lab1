@@ -13,6 +13,20 @@ knitr::opts_chunk$set(echo = TRUE)
 
 * Click the link and follow the instructions to install R and RStudio.
   + [rstudio-education.github.io/hopr/starting.html](https://rstudio-education.github.io/hopr/starting.html)
-* Open a new session of RStudio and 
+  + Open a new session and get familiar with interface.
+  
+## 2. Download and Open App for Lab 1
+* Download a .zip archive file for the Lab 1 files from my Github
+  + Go to the link at [github.com/jordaninskeep/rs4500_Lab1](https://github.com/jordaninskeep/rs4500_Lab1)
+  + Click the "Code" dropdown then select "Download Zip." 
+      
+![](data/downloadZip.png)
+  
+  + Save this in a folder for your RS4500 Labs.
+  + Unzip this archive and open "rs4500_Lab1.Rproj"
+  
+
+  
+  
  
 
