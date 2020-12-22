@@ -1,0 +1,18 @@
+---
+title: "RS4500 Social Network Analysis - Lab 1"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Pre-Lab
+
+## 1. Install R and RStudio
+
+* Click the link and follow the instructions to install R and RStudio.
+  + [rstudio-education.github.io/hopr/starting.html](https://rstudio-education.github.io/hopr/starting.html)
+* Open a new session of RStudio and 
+ 
+
