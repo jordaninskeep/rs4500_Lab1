@@ -32,12 +32,12 @@ knitr::opts_chunk$set(echo = TRUE)
   
   * **Look through the code in the "app.R" window.**  
   
-  *This is a script, it holds the code which makes up the program named "app.R". You can right code in this window, save it and run it. Don't worry to much about the code for now. And it isn't as complicated as it looks, by the end of the semester you most of it will make sense.*  
+  *This is a script, it holds the code which makes up the program named "app.R". You can right code in this window, save it and run it. Don't worry to much about the code for now. And it isn't as complicated as it looks, by the end of the semester most of it will make sense.*  
 
   * **Run the App by clicking "Run App" in the top right of the "app.R" window.**  
   ![](data/runApp.png)
   
-*The program with install and load all of the packages needed to run the app. You will see this happen in red font in the console.*  
+*The program will install and load all of the packages needed to run the app. You will see this happen in red font in the console and then say "listening to" and IP address.*  
 
 ## 3. Get Familiar and Add a Node and Edge to the Example Network.
 
@@ -53,17 +53,25 @@ knitr::opts_chunk$set(echo = TRUE)
   + Either from the Files Panel or in your local file browser, open data.xlsx  
   ![](data/data.png)
   
-*This is the same data that you saw in the table tab in the App. This App is actually reactive, meaning it is constantly looking for updates in the excel file and then updating the app.*   
+*This is the same data that you saw in the table tab in the App. This App is actually reactive, meaning it is constantly look for updates in the excel file and then updating the app.*   
 
 * **Add an Edge**
-  +   In the "Edges" worksheet in the "from" column add Example 8 and in the "to" column connect it to Example 1. Add what Type you want it to be, and arrows on both ends of the edge by adding to, from in the arrows column.  
+  +   In the "Edges" worksheet in the "from" column add Example 8 and in the "to" column connect it to Example 1. Add what Type you want it to be, and arrows on both ends of the edge by adding "to, from" in the arrows column.  
   
 * **Add a Node**
   + Go the "Nodes" worksheet, Add Example 8 to the "name" column, Add a Type and a Label.  
   
   + Save the changes to the Excel file. Return and make sure this automatically updated the app. 
   
+* **Add More Edges and Nodes**  
+  + The most important thing is to make sure things are spelled right and is case-sensitive. And that all of the nodes called by the Edges table are in the Nodes table, and vice-versa. 
 ![](data/example8.png)
+  
+* ** You are now done with the pre-lab.   
+
+# Lab 1 - Building Networks
+
+## 1. Opening Social Network App (app.R) and the Network Data (data.xlsx)
 
   
  
