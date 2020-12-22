@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ## 1. Install R and RStudio
 
 * **Click the link and follow the instructions to install R and RStudio.**
-  + [rstudio-education.github.io/hopr/starting.html](https://rstudio-education.github.io/hopr/starting.html)
+  + link: [rstudio-education.github.io/hopr/starting.html](https://rstudio-education.github.io/hopr/starting.html)
   + Open a new session and get familiar with interface.
   
 ## 2. Download and Open App for Lab 1
@@ -23,18 +23,18 @@ knitr::opts_chunk$set(echo = TRUE)
   
 *Github is a "version control" program that is used to track changes to and distribute code. Here you can find tons of packages and programs that other people have developed. We will us this to distribute code for your labs.*  
 
-  + Save this in a folder on your computer where you want to save your RS4500 Labs.  
-  + Navigate to this folder and unzip this archive and open "rs4500_Lab1.Rproj"  
-  + In the bottom right "Files" panel in RStudio open app.R, app.R should open in the top left panel of Rstudio.  
+  * **Save this in a folder on your computer where you want to save your RS4500 Labs.**  
+  * **Navigate to this folder and unzip this archive and open "rs4500_Lab1.Rproj"**  
+  * **In the bottom right "Files" panel in RStudio open app.R, app.R should open in the top left panel of Rstudio.**  
   ![](data/openApp.png)
     
 *This shows your working directory, it shows all of the files in the folder related to the project. It is just like a file browser for your computer, with come extra R related options.*  
   
-  + Look through the code in the "app.R" window.  
+  * **Look through the code in the "app.R" window.**  
   
   *This is a script, it holds the code which makes up the program named "app.R". You can right code in this window, save it and run it. Don't worry to much about the code for now. And it isn't as complicated as it looks, by the end of the semester you most of it will make sense.*  
 
-  + Run the App by clicking "Run App" in the top right of the "app.R" window.  
+  * **Run the App by clicking "Run App" in the top right of the "app.R" window.**  
   ![](data/runApp.png)
   
 *The program with install and load all of the packages needed to run the app. You will see this happen in red font in the console.*  
@@ -52,19 +52,19 @@ knitr::opts_chunk$set(echo = TRUE)
  
   + Either from the Files Panel or in your local file browser, open data.xlsx  
   ![](data/data.png)
+  
 *This is the same data that you saw in the table tab in the App. This App is actually reactive, meaning it is constantly looking for updates in the excel file and then updating the app.*   
 
-  + In the "Edges" worksheet in the "from" column add Example 8 and in the "to" column connect it to Example 1. Add what Type you want it to be, and arrows on both ends of the edge by adding to, from in the arrows column.  
+* **Add an Edge**
+  +   In the "Edges" worksheet in the "from" column add Example 8 and in the "to" column connect it to Example 1. Add what Type you want it to be, and arrows on both ends of the edge by adding to, from in the arrows column.  
   
+* **Add a Node**
   + Go the "Nodes" worksheet, Add Example 8 to the "name" column, Add a Type and a Label.  
   
   + Save the changes to the Excel file. Return and make sure this automatically updated the app. 
   
 ![](data/example8.png)
-  
-  
 
-  
   
  
 
