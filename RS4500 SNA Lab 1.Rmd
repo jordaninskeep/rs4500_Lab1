@@ -67,11 +67,21 @@ knitr::opts_chunk$set(echo = TRUE)
   + The most important thing is to make sure things are spelled right and is case-sensitive. And that all of the nodes called by the Edges table are in the Nodes table, and vice-versa. 
 ![](data/example8.png)
   
-* ** You are now done with the pre-lab.   
+* **You are now done with the pre-lab.**   
 
 # Lab 1 - Building Networks
 
 ## 1. Opening Social Network App (app.R) and the Network Data (data.xlsx)
+  
+  +   Open rs4500_Lab1.Rproj in RStudio then open and run app.R  
+  
+  +   Open data.xlsx in Excel
+  
+  +   In Excel select and delete all "Example" nodes and edges including their types, labels, etc.
+  
+  +   Save data.xlsx and check to make sure network app is cleared.
+  
+## 2. 
 
   
  
