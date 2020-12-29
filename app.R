@@ -64,7 +64,8 @@ server <- function(input, output, session) {
     graphData$rigraph <- reactive({
     graph_from_data_frame(d = data.frame(rEdgeData()),
                             directed = FALSE,
-                            vertices = data.frame(rNodeData()))
+                            vertices = data.frame(rNodeData())) %>%
+        simplify()
     })
     graphData$edgeData <- reactive({
       edgeData <- data.frame(
