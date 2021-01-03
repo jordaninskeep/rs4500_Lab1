@@ -27,9 +27,8 @@ ui <- dashboardPage(
                           "closeness",
                           "pagerank"
                           )),
-            selectInput("groupBy","Group Based on:",
+            selectInput("groupBy","Group Based on:",selected = "Louvain",
                         choices = c(
-                          "Default",
                           "Louvain",
                           "Edge betweenness",
                           "Leading Eigen",
@@ -64,8 +63,7 @@ server <- function(input, output, session) {
     graphData$rigraph <- reactive({
     graph_from_data_frame(d = data.frame(rEdgeData()),
                             directed = FALSE,
-                            vertices = data.frame(rNodeData())) %>%
-        simplify()
+                            vertices = data.frame(rNodeData()))
     })
     graphData$edgeData <- reactive({
       edgeData <- data.frame(
@@ -121,9 +119,7 @@ server <- function(input, output, session) {
       }
     })
     observe({
-      graphData$groups <- if(input$groupBy=="Default") {
-        cluster_fast_greedy(graphData$rigraph())$membership
-      } else if (input$groupBy=="Louvain"){
+      graphData$groups <- if (input$groupBy=="Louvain"){
         cluster_louvain(graphData$rigraph())$membership
       } else if (input$groupBy=="Edge betweenness"){
         cluster_edge_betweenness(graphData$rigraph())$membership
