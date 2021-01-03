@@ -83,8 +83,34 @@ knitr::opts_chunk$set(echo = TRUE)
   
 ## 2. Begin Mapping Identifying Community Relationships
 
-  +   
-
+  *   Begin to enter relationships in the "Edges" worksheet of the data.xlsx file. **Pay close attention to spelling and capitalization.**  
+      +   *to* and *from* are the names of connected *nodes*.  
+      +   *type* is the type and color of the edge.  
+          - *In this class it will be associated with the CCF.*  
+      +   *title* is the description of the edge which is revealed in a pop-up.  
+          - *You can chose this from the "CCF edges catalog", or come up with your own.*  
+      +   *label* is a name for the edge. I normally do not use this.  
+      +   *value* determines the width of the edge.  
+      +   *arrows* determines whether there are arrowheads on the edges. Enter "to",  "from", or "to, from".  
+  *   Enter the nodes used on the "Edges" worksheet into the "Nodes" worksheet.   
+      +    For each relationship listed in the *to* and *from* column of the "Edges" worksheet, list it under the *name* column in "Nodes." **Again be cautious of spelling and capitalization.**  
+  *   Fill out the other attributes for each node.  
+      +   *name* is the name of the node.  
+      +   *type* is the type of organization or association the node is. This is currenty not used in the app.  
+      +   *title* is a description which is revealed in a pop-up.   
+      +   Two other attributes will be created in the app, *value* and *group*. *We will discus both of these more in the next lab*  
+          -   *value* will determine the size of the node. This is to represent measures of "centrality".  
+          -   *group* will determine which group the node belongs to. This is determined by different algorithms in the app.  
+  *   Save your excel data.xlsx and re-run your app.R code in RStudio if you need to. I suggest in the drop down under "Run App" choosing "Run External" so that it runs in your web browser.  
   
+# A note on learning R  
+
+For people who are more interested in learning R, I would suggest [R for Data Science](https://r4ds.had.co.nz/index.html). It is a great introduction to coding in R and data visualization. Also [Rstudio.com](https://rstudio.com/) has great webinars and tutorials in their resources section. 
+
+I will also be posting a list of other resources specific to R and Network analysis in Carmen. When in doubt Google, adding r to what you are looking for should bring results. Also you can search or post to [stackoverflow.com](https://stackoverflow.com/questions/tagged/r), include "[r]" in your search. 
+
+Lastly, programming languages are languages. This means learning them is like learning a language, all the same rules apply. Your best bet is to just give it a try and not be too hard on yourself when you hit a roadblock, take a break and come back to it later. "Speaking" or "writing" is the best way to learn. Look at other peoples code and try to replicate it. I taught myself all that I know in the past year, I am sure you could do the same or more. 
+
+Feel free to reach out to me at inskeep.24@buckeyemail.osu.edu at any time. 
  
 

@@ -138,7 +138,7 @@ server <- function(input, output, session) {
       nodeData <- data.frame(
         name = rNodeData()$name,
         type = rNodeData()$type,
-        label = rNodeData()$label,
+        title = rNodeData()$title,
         group = graphData$groups,
         value = graphData$value
       ) 
