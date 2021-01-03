@@ -81,7 +81,9 @@ knitr::opts_chunk$set(echo = TRUE)
   
   +   Save data.xlsx and check to make sure network app is cleared.
   
-## 2. 
+## 2. Begin Mapping Identifying Community Relationships
+
+  +   
 
   
  

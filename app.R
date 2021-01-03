@@ -74,7 +74,8 @@ server <- function(input, output, session) {
         type = rEdgeData()$type,
         value = rEdgeData()$value,
         label = rEdgeData()$label,
-        arrows = rEdgeData()$arrows
+        arrows = rEdgeData()$arrows,
+        title = rEdgeData()$title
         )
       edgeData <- left_join(edgeData,graphData$edgeLegend(),by = c("type" = "type"))
     })
