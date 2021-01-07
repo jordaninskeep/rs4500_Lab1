@@ -19,14 +19,16 @@ knitr::opts_chunk$set(echo = TRUE)
 * **Download a .zip archive file for the Lab 1 files from my Github.**
   + Go to the link at [github.com/jordaninskeep/rs4500_Lab1](https://github.com/jordaninskeep/rs4500_Lab1)
   + Click the "Code" dropdown then select "Download Zip."  
-![](data/downloadZip.png)  
+    
+    ![](data/downloadZip.png)  
   
 *Github is a "version control" program that is used to track changes to and distribute code. Here you can find tons of packages and programs that other people have developed. We will us this to distribute code for your labs.*  
 
   * **Save this in a folder on your computer where you want to save your RS4500 Labs.**  
   * **Navigate to this folder and unzip this archive and open "rs4500_Lab1.Rproj"**  
   * **In the bottom right "Files" panel in RStudio open app.R, app.R should open in the top left panel of Rstudio.**  
-  ![](data/openApp.png)
+    
+    ![](data/openApp.png)
     
 *This shows your working directory, it shows all of the files in the folder related to the project. It is just like a file browser for your computer, with come extra R related options.*  
   
@@ -35,7 +37,8 @@ knitr::opts_chunk$set(echo = TRUE)
   *This is a script, it holds the code which makes up the program named "app.R". You can right code in this window, save it and run it. Don't worry to much about the code for now. And it isn't as complicated as it looks, by the end of the semester most of it will make sense.*  
 
   * **Run the App by clicking "Run App" in the top right of the "app.R" window.**  
-  ![](data/runApp.png)
+    
+    ![](data/runApp.png)
   
 *The program will install and load all of the packages needed to run the app. You will see this happen in red font in the console and then say "listening to" and IP address.*  
 
@@ -51,7 +54,8 @@ knitr::opts_chunk$set(echo = TRUE)
 * **Add a node and an edge to the excel file.**  
  
   + Either from the Files Panel or in your local file browser, open data.xlsx  
-  ![](data/data.png)
+    
+    ![](data/data.png)
   
 *This is the same data that you saw in the table tab in the App. This App is actually reactive, meaning it is constantly look for updates in the excel file and then updating the app.*   
 
@@ -64,7 +68,8 @@ knitr::opts_chunk$set(echo = TRUE)
   + Save the changes to the Excel file. Return and make sure this automatically updated the app. 
   
 * **Add More Edges and Nodes**  
-  + The most important thing is to make sure things are spelled right and is case-sensitive. And that all of the nodes called by the Edges table are in the Nodes table, and vice-versa. 
+  + The most important thing is to make sure things are spelled right and is case-sensitive. And that all of the nodes called by the Edges table are in the Nodes table, and vice-versa.  
+    
 ![](data/example8.png)
   
 * **You are now done with the pre-lab.**   
